@@ -1,3 +1,6 @@
+Forked from karuppiah7890, only added "tolerance" for M1 Macs and removed checksum-checking (I'm just lazy).
+
+
 # helm schema gen plugin [ CURRENTLY NOT MAINTAINED ]
 
 ![](https://github.com/TumbleFur/helm-schema-gen/workflows/goreleaser/badge.svg)

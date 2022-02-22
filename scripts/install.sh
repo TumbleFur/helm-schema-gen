@@ -103,6 +103,7 @@ adjust_os() {
     386) OS=i386 ;;
     amd64) OS=x86_64 ;;
     darwin) OS=Darwin ;;
+    arm64) OS=arm_64 ;;
     linux) OS=Linux ;;
     windows) OS=Windows ;;
   esac
@@ -113,6 +114,7 @@ adjust_arch() {
   case ${ARCH} in
     386) ARCH=i386 ;;
     amd64) ARCH=x86_64 ;;
+    arm64) ARCH=arm_64 ;;
     darwin) ARCH=Darwin ;;
     linux) ARCH=Linux ;;
     windows) ARCH=Windows ;;
